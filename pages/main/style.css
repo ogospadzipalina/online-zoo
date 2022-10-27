@@ -8,6 +8,7 @@ body {
     position: absolute;
     height:auto;
     border: none;
+
 }
 
 .header {
@@ -292,9 +293,9 @@ color: #333B41;
     width: 293px;
     padding-top: 10px;
     margin-top: -10px;
-    height: 609px;
+    height: 500px;
     left: 1400px;
-    top: 792px;
+    top: 800px;
 /*background-image: url('/assets/images/flower-foto1.png');
 background-repeat: no-repeat;*/
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -322,23 +323,24 @@ top: 0px;
 
 .card{
     position: absolute;
-width: 366px;
-height: 426px;
-border-radius: 5px;
-left: 0px;
-top: 0px;
-background-color: #FFFFFF;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 140%;
-/* or 22px */
-
-text-transform: uppercase;
-
-color: #000000;
+    box-sizing: border-box;
+    border-color:  #FE9013;
+    border-style: solid;
+    border-radius: 5px;
+    width: 366px;
+    height: 426px;
+    left: 0px;
+    top: 0px;
+    background-color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
 }
+
 
 .icon-herbivore{
     position: absolute;
@@ -349,12 +351,13 @@ top: 376px;
 }
 
 
-.icon-cornivore{
+.icon-carnivore{
     position: absolute;
-width: 48px;
-height: 38px;
-left: 310px;
-top: 374px;
+    width: 48px;
+    height: 38px;
+    left: 310px;
+    top: 374px;
+    
 }
 
 
@@ -378,4 +381,90 @@ top: 446px;
 .penguin {
     left: 792px;
 top: 446px;
+}
+
+.arrow-left{
+    background-image: url(/assets/icons/arrow-left.svg);
+    background-size: cover;
+    position: absolute;
+    border: none;
+    background-color: #FFFFFF;
+width: 62px;
+height: 62px;
+right: 1400px;
+top: 1906px;
+}
+
+.arrow-right{
+    /*background-image: url(/assets/icons/arrow-right.svg);*/
+    background-size: cover;
+    position: absolute;
+    border: none;
+    background-color: #FFFFFF;
+width: 62px;
+height: 62px;
+right: 140px;
+top: 1906px;
+
+}
+
+.arrow-left .arrow-right:hover{
+    color: #FFEE2E;
+}
+
+.choose-your-favorite{
+    position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2);
+top: 2455px;
+
+/* or3 */
+
+background: #FE9013;
+border-color: #FE9013;;
+border-radius: 25px;
+
+}
+
+.choose-your-favorite p{
+    position: absolute;
+width: 292px;
+height: 22px;
+left: 5px;
+top: 16px;
+
+/* btn. */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.palm-photo{
+    background-image: url(/assets/images/palm-foto.png);
+    position: absolute;
+    width: 875px;
+    height: 460px;
+    left: -588px;
+    top: 2149px;
+    
+}
+
+.strelitzia-photo{
+    background-image: url(/assets/images/strelitzia.png);
+    background-position: center;
+    position: absolute;
+width: 368px;
+height: 275px;
+right: -368px;
+top: 2334px;
 }
