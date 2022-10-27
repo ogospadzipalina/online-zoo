@@ -20,6 +20,8 @@ body {
     backdrop-filter: blur(2px);
 }
 
+/* logo */
+
 h1 {
     box-sizing: border-box;
     position: absolute;
@@ -37,6 +39,10 @@ h1 {
     border: 1.18841px solid #FFFFFF;
 }
 
+.border-logo {
+    text-align: center;
+}
+
 .logo {
     box-sizing: border-box;
     position: absolute;
@@ -46,8 +52,18 @@ h1 {
     top: 0px;
     border: 1px solid #FFFFFF;
     border-radius: 2px;
-    
 }
+
+.bamboo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 7.03px;
+    height: 20.98px;
+    left: 13.23px;
+    top: 24.64px;
+}
+
+/* header nav */
 
 .header a{
     font-family: 'Roboto';
@@ -127,7 +143,7 @@ h1 {
     right: 0px;
 }
 
-.Ellipse {
+.ellipse {
     position: absolute;
     width: 465px;
     height: 465px;
