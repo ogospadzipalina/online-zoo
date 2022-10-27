@@ -4,28 +4,30 @@
         <meta charset="utf-8">
         <title>Online Zoo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/pages/main/style.css">
     </head>
     <body>
-        <header>
+        <header class="header">
             <nav>
                 <ul>
-                    <a href="pages/main/index.html">PetStory online</a>
-                    <a href="about">About</a>
-                    <a href="map">Map</a>
-                    <a href="Zoos">Zoos</a>
-                    <a href="pages/donate/index.html">Donate</a>
-                    <a href="contact">Contact us</a>
-                    <a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">Designed by ©</a>
+                    <div class='border-logo'><h1 class="logo"><a href="/pages/main/index.html">PetStory online</a></h1></div>
+                    <a href="/pages/main/index.html" class="about">About</a>
+                    <a href="map" class="map">Map</a>
+                    <a href="Zoos" class="zoos">Zoos</a>
+                    <a href="pages/donate/index.html" class="donate">Donate</a>
+                    <a href="contact" class="contact">Contact us</a>
+                    <a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks" class="design">Designed by ©</a>
                 </ul>
             </nav>
         </header>
         <main>
-            <div class="first">
-                <img src="/assets/images/GiantPanda.jpg" alt="Panda">
-                <img src="/assets/icons/Ellipse6.svg" alt = 'Ellipse'>
-                <h1>WATCH YOUR FAVORITE ANIMAL ONLINE</h1>
-                <button>WATCH ONLINE</button>
+            <div class="PageWatchOnline">
+                <img src="/assets/icons/Ellipse6.svg" alt = 'Ellipse' class="ellipse">
+                <p>WATCH YOUR <span class='favorite'>FAVORITE</span> ANIMAL ONLINE</p>
+                <button class="watch-online">WATCH ONLINE</button>
             </div>
         </main>
     </body>

@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    max-width: 1600px;
+    position: absolute;
+    width: 100%;
+    height:auto;
+    border: none;
+}
+
+.header {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+}
+
+h1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 72.49px;
+    height: 44.91px;
+    left: 4.75px;
+    top: 3.55px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1.18841px solid #FFFFFF;
+}
+
+.logo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    
+}
+
+.header a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.about {
+    position: absolute;
+    width: 43px;
+    height: 22px;
+    left: 365px;
+    top: 29px;
+}
+
+.header a:link{
+    text-decoration: none;
+}
+
+.header a:hover{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+}
+
+.map {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 466px;
+    top: 29px;
+}
+
+.donate {
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 650px;
+    top: 29px;
+}
+
+.contact {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 759px;
+    top: 29px;
+}
+
+.design {
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 1275px;
+    top: 29px;
+}
+
+.zoos {
+    position: absolute;
+    width: 36px;
+    height: 22px;
+    left: 556px;
+    top: 29px;
+}
+
+.PageWatchOnline {
+    background-image: url("/assets/images/GiantPanda.jpg");
+    width: 1600px;
+    height: 780px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+.Ellipse {
+    position: absolute;
+    width: 465px;
+    height: 465px;
+    left: calc(50% - 465px/2 + 239.5px);;
+    top: 92px;
+}
+
+.border-logo {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+
+}
+
+.watch-online {
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2 + 332px);
+    top: 626px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+}
+
+.PageWatchOnline p {
+    position: absolute;
+    width: 500.31px;
+    height: 400px;
+    left: calc(50% - 500.31px/2 + 330.15px);
+    top: 166px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+/* or 80px */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.favorite {
+    color: #FFEE2E;
+}
