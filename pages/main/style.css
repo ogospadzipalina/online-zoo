@@ -1,17 +1,18 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
 }
 
 body {
-    width: 1600px;
     position: absolute;
     height:auto;
     border: none;
-
+    width: 100% auto;
 }
 
-.header {
+.header{
     width: 1600px;
     height: 80px;
     left: 0px;
@@ -24,13 +25,10 @@ body {
 
 h1 {
     box-sizing: border-box;
-    position: absolute;
     width: 72.49px;
     height: 44.91px;
     left: 4.75px;
     top: 3.55px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 19.0145px;
     line-height: 120%;
@@ -45,7 +43,6 @@ h1 {
 
 .logo {
     box-sizing: border-box;
-    position: absolute;
     width: 82px;
     height: 52px;
     left: 0px;
@@ -66,8 +63,6 @@ h1 {
 /* header nav */
 
 .header a{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
@@ -138,10 +133,8 @@ h1 {
     background-image: url("/assets/images/GiantPanda.jpg");
     width: 1600px;
     height: 780px;
-    position: absolute;
     left: 0px;
     right: 0px;
-    margin-bottom: auto;
 }
 
 .ellipse {
@@ -164,9 +157,14 @@ h1 {
     width: 298px;
     height: 54px;
     left: calc(50% - 298px/2 + 332px);
-    top: 626px;
+    top: 625px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
+    color: #EAF7FE;
+    font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
 }
 
 .PageWatchOnline p {
@@ -175,13 +173,9 @@ h1 {
     height: 400px;
     left: calc(50% - 500.31px/2 + 330.15px);
     top: 166px;
-
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 106.496px;
     line-height: 75%;
-/* or 80px */
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -215,11 +209,6 @@ height: 116px;
 left: 696px;
 right: 0px;
 top: 0px;
-
-/* h2 */
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 48px;
 line-height: 120%;
@@ -232,9 +221,6 @@ height: 42px;
 left: 696px;
 right: 0px;
 top: 136px;
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 130%;
@@ -251,17 +237,9 @@ width: 217px;
 height: 29px;
 left: calc(50% - 217px/2 + 224px);
 top: 232px;
-
-/* subtitle */
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 120%;
-/* identical to box height, or 29px */
-
-
 color: #333B41;
 
 }
@@ -273,16 +251,9 @@ left: 696px;
 right: 0px;
 top: 295px;
 
-/* body */
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 140%;
-/* or 22px */
-
-
 color: #333B41;
 
 }
@@ -336,8 +307,6 @@ top: 0px;
     left: 0px;
     top: 0px;
     background-color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
@@ -442,16 +411,9 @@ width: 292px;
 height: 22px;
 left: 5px;
 top: 16px;
-
-/* btn. */
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 140%;
-/* or 22px */
-
 text-align: center;
 text-transform: uppercase;
 
@@ -479,7 +441,7 @@ color: #FFFFFF;
     position: absolute;
 width: 368px;
 height: 275px;
-right: -368px;
+right: 0px;
 top: 2334px;
 }
 
@@ -510,17 +472,15 @@ border-radius: 20px;
 }
 
 .pick-a-friend h3{
-    position: absolute;
+position: absolute;
 width: 463px;
 height: 58px;
 left: calc(50% - 463px/2 + 1.5px);
-top: 110px;
-
-font-family: 'Roboto';
-font-style: normal;
+top: 70px;
 font-weight: 400;
 font-size: 48px;
 line-height: 120%;
+margin-top: -20px;
 /* identical to box height, or 58px */
 
 text-align: center;
@@ -534,12 +494,7 @@ color: #FE9013;
 width: 844px;
 height: 29px;
 left: calc(50% - 844px/2 - 59px);
-top: 198px;
-
-/* subtitle */
-
-font-family: 'Roboto';
-font-style: normal;
+top: 138px;
 font-weight: 400;
 font-size: 24px;
 line-height: 120%;
@@ -554,16 +509,10 @@ color: #333B41;
 width: 1061px;
 height: 21px;
 left: calc(50% - 1061px/2 + 49.5px);
-top: 267px;
-
-font-family: 'Roboto';
-font-style: normal;
+top: 247px;
 font-weight: 500;
 font-size: 16px;
 line-height: 130%;
-/* identical to box height, or 21px */
-
-
 color: #333B41;
 
 }
@@ -573,10 +522,7 @@ color: #333B41;
 width: 863px;
 height: 42px;
 left: calc(50% - 863px/2 - 49.5px);
-top: 298px;
-
-font-family: 'Roboto';
-font-style: normal;
+top: 278px;
 font-weight: 400;
 font-size: 16px;
 line-height: 130%;
@@ -587,124 +533,264 @@ color: #333B41;
 }
 
 .pick-a-friend h5{
-    
 position: absolute;
 width: 209px;
 height: 47px;
 left: calc(50% - 209px/2 - 0.5px);
-top: 400px;
+top: 380px;
 
-/* h3 */
-
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 36px;
 line-height: 130%;
-/* identical to box height, or 47px */
-
-
 color: #333B41;
 }
 
 .donation{
     position: absolute;
-width: 168px;
-height: 244px;
-border-radius: 5px;
-left: calc(50% - 168px/2 - 298px);
-top: 487px;
+    width: 168px;
+    height: 244px;
+    border-radius: 5px;
+    left: calc(50% - 168px/2 - 298px);
+    top: 467px;
+}
+
+.donation-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .donation p{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-position: absolute;
-width: 168px;
-height: 46px;
-left: 0px;
-top: 198px;
-color: #333B41;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    position: absolute;
+    width: 168px;
+    height: 46px;
+    left: 0px;
+    top: 198px;
+    color: #333B41;
 }
 
 .icon{
     box-sizing: border-box;
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     width: 168px;
     height: 168px;
-
-background: #FFFFFF;
-border-style: solid;
-border-color: #FE9013;
-border-radius: 5px;
+    background: #FFFFFF;
+    border-style: solid;
+    border-color: #FE9013;
+    border-radius: 5px;
 }
 
 .pay-hand{
     left: calc(50% - 168px/2 - 298px);
-top: 487px;
+    top: 487px;
 }
 
 .pay-hand p{
     position: absolute;
-width: 168px;
-height: 46px;
-left: 0px;
-top: 198px;
+    width: 168px;
+    height: 46px;
+    left: 0px;
+    top: 198px;
 }
 
 .payment-goes{
     left: calc(50% - 168px/2);
-top: 487px;
+    top: 487px;
 }
 
 .pay img{
     position: absolute;
-width: 60px;
-height: 108px;
-left: 138px;
-top: 54px;
+    width: 80px;
+    height: 108px;
+    left: 50px;
+    top: 30px;
+margin: 0px auto;
+    display: flex;
+
+
 }
 
 .payment img{
     position: absolute;
-left: 75.6%;
-right: -26.65%;
-top: 15.57%;
-bottom: 45.49%;
-
+    left: 40px;
+    right: 50px;
+    top: 15.57%;
+    bottom: 45.49%;
+display: flex;
+margin: 0px auto;
 }
 
 .banana img{
     position: absolute;
-left: 13.1%;
-right: 12.65%;
-top: 19.67%;
-bottom: 50.98%;
+    left: 13.1%;
+    right: 12.65%;
+    top: 19.67%;
+    bottom: 50.98%;
+margin-left: auto;
+margin-right: auto;
 }
 
 .animal-fed{
     left: calc(50% - 168px/2 + 298px);
-top: 487px;
+    top: 487px;
 }
 
 .arrow{
     position: absolute;
-width: 69px;
-height: 35.08px;
-
-
+    display: flex;
+    flex-direction: row;
+    left: 400px;
+    width: 69px;
+    height: 35.08px;
 }
 
 .first{
-    left: calc(50% - 69px/2 - 80.5px);
-top: 549px;
+    /*left: calc(50% - 69px/2 - 80.5px);*/
+    top: 549px;
 }
 
 .second{
-    left: calc(50% - 69px/2 + 217.5px);
-top: 545px;
+    /*left: calc(50% - 69px/2 + 217.5px);*/
+    left: 700px;
+    top: 545px;
+}
 
+.feed-a-friend{
+    position: absolute;
+
+    position: absolute;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2);
+    top: 791px;
+    /* orange */
+    
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.testimonials{
+    position: absolute;
+height: 575px;
+left: 220px;
+right: 220px;
+top: 3753px;
+}
+
+.testimonials h4{
+    position: absolute;
+width: 206px;
+height: 47px;
+left: calc(50% - 206px/2);
+top: 0px;
+font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+text-align: center;
+color: #333B41;
+}
+
+.testimonial-card {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: pink;
+    background: #F1F3F2;
+    border-radius: 20px;
+}
+
+.testimonial-card h6{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+color: #000000;
+width: 139px;
+height: 19px;
+left: 40px;
+top: 15px;
+}
+
+.testimonial-card p{
+    font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+color: #BDBDBD;
+position: absolute;
+width: 180px;
+height: 19px;
+left: 63px;
+top: 35px;
+}
+
+.testimonial-card article{
+
+font-weight: 300;
+font-size: 15px;
+line-height: 120%;
+color: #767474;
+position: absolute;
+position: absolute;
+width: 237px;
+height: 309px;
+left: 16px;
+top: 63px;
+
+}
+
+.testimonial-card img{
+    position: absolute;
+width: 37px;
+height: 37px;
+left: 16px;
+top: 15px;
+}
+
+.michael{
+    position: absolute;
+width: 268px;
+height: 391px;
+left: calc(50% - 268px/2 - 446px);
+top: 94px;
+}
+
+.oskar{
+    position: absolute;
+width: 268px;
+height: 391px;
+left: calc(50% - 268px/2 - 148px);
+top: 94px;
+}
+
+.oskar h6{
+    width: 126px;
+}
+
+.fredericka{
+    position: absolute;
+width: 267px;
+height: 391px;
+left: calc(50% - 267px/2 + 148.5px);
+top: 94px;
+}
+
+.mila{
+    position: absolute;
+width: 266px;
+height: 391px;
+left: calc(50% - 266px/2 + 447px);
+top: 94px;
 }
