@@ -925,7 +925,192 @@ background-repeat: no-repeat;
 position: absolute;
 width: 300.92px;
 height: 340px;
-right: 0px;
+right: -27px;
 top: 4300px;
 }
 
+footer{
+    position: absolute;
+    height: 443px;
+    top:  4532px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+background: #111115;
+}
+
+footer .border-logo{
+position: absolute;
+width: 82px;
+height: 52px;
+left: 220px;
+top: 41px;
+}
+
+.donate-for-volunteers{
+    position: absolute;
+width: 298px;
+height: 54px;
+left: 220px;
+top: 161px;
+position: absolute;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 5px;
+border-color: transparent;
+}
+
+.social-links li{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+
+.social-ellipse{
+    position: absolute;
+width: 26px;
+height: 26px;
+border-radius: 50%;
+background: rgba(196, 196, 196, 0.5);
+}
+
+.facebook{
+    position: absolute;
+width: 111px;
+height: 26px;
+left: 220px;
+bottom: 158px;
+}
+
+.twitter{
+    position: absolute;
+width: 89px;
+height: 26px;
+left: 220px;
+bottom: 122px;
+}
+
+.instagram{
+    position: absolute;
+width: 110px;
+height: 26px;
+left: 220px;
+bottom: 86px;
+
+}
+
+.youtube{
+    position: absolute;
+width: 101px;
+height: 26px;
+left: 220px;
+bottom: 50px;
+}
+
+footer h3{
+    position: absolute;
+width: 237px;
+height: 29px;
+right: 350px;
+top: 40px;
+
+/* subtitle */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+
+color: #FFFFFF;
+}
+
+.email-subscription{
+    box-sizing: border-box;
+
+
+border-color: #FE9013;
+border-radius: 2px;
+
+
+position: absolute;
+width: 211px;
+height: 22px;
+left: 10px;
+top: 10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+/* Gray 4 */
+
+color: #BDBDBD;
+}
+
+.subscribe{
+    position: absolute;
+width: 129px;
+height: 42px;
+right: 220px;
+top: 83px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+background: #F1F3F2;
+/* black_blue */
+
+border: 1px solid #333B41;
+border-radius: 5px;
+
+color: #000000;
+}
+
+.design{
+    position: absolute;
+width: 220px;
+height: 21px;
+right: 228px;
+bottom: 81px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+
+
+color: #FFFFFF;
+
+}
+
+.rights{
+    position: absolute;
+width: 228px;
+height: 21px;
+right: 220px;
+bottom: 50px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 130%;
+/* identical to box height, or 21px */
+
+
+color: #FFFFFF
+}
