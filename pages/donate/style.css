@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+html, body {
+    width: 1600px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    position: absolute;
+    height:auto;
+    border: none;
+    width: 100% auto;
+    overflow-x: hidden;
+}
+
+button:link{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+button:active{
+    background: #4B9200;
+}
+button:hover{
+    background: #E47209;
+}
+button:disabled{
+    background: #767474;
+}
+
+.header{
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+}
+
+/* logo */
+
+h1 {
+    box-sizing: border-box;
+    width: 72.49px;
+    height: 44.91px;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1.18841px solid #FFFFFF;
+}
+
+.border-logo {
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 220px;
+top: 14px;
+}
+
+.logo {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.bamboo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 7.03px;
+    height: 20.98px;
+    left: 13.23px;
+    top: 24.64px;
+}
+
+/* header nav */
+
+.header a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+header .about {
+    position: absolute;
+    width: 43px;
+    height: 22px;
+    left: 365px;
+    top: 29px;
+}
+
+.header a:link{
+    text-decoration: none;
+}
+
+.header a:hover{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+}
+
+header .map {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 466px;
+    top: 29px;
+}
+
+header .donate {
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 650px;
+    top: 29px;
+}
+
+header .contact {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 759px;
+    top: 29px;
+}
+
+.design {
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 1275px;
+    top: 29px;
+}
+
+header .zoos {
+    position: absolute;
+    width: 36px;
+    height: 22px;
+    left: 556px;
+    top: 29px;
+}
