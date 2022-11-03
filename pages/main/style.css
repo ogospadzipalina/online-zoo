@@ -150,7 +150,7 @@ header .zoos {
 }
 
 .PageWatchOnline {
-    background-image: url("/assets/images/GiantPanda.jpg");
+    background-image: url("/online-zoo/assets/images/GiantPanda.jpg");
     width: 1600px;
     height: 780px;
     left: 0px;
@@ -372,7 +372,7 @@ top: 446px;
 }
 
 .arrow-left{
-    background-image: url(/assets/icons/arrow-left.svg);
+    background-image: url(/online-zoo/assets/icons/arrow-left.svg);
     background-size: cover;
     position: absolute;
     border: none;
@@ -436,7 +436,7 @@ color: #FFFFFF;
 }
 
 .palm-photo{
-    background-image: url(/assets/images/palm-foto.png);
+    background-image: url(/online-zoo/assets/images/palm-foto.png);
     position: absolute;
     width: 875px;
     height: 460px;
@@ -446,7 +446,7 @@ color: #FFFFFF;
 }
 
 .strelitzia-photo{
-    background-image: url(/assets/images/strelitzia.png);
+    background-image: url(/online-zoo/assets/images/strelitzia.png);
     background-position: center;
     position: absolute;
 width: 368px;
@@ -913,7 +913,7 @@ color: #FFFFFF;
 
 
 .leaf{ 
-background-image: url(/assets/images/leav-foto.png);
+background-image: url(/online-zoo/assets/images/leav-foto.png);
 background-position: center;
 background-repeat: no-repeat;
 position: absolute;
