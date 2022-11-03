@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+html, body {
+    width: 1600px;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    position: absolute;
+    height:auto;
+    border: none;
+    width: 100% auto;
+    overflow-x: hidden;
+}
+
+button:link{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+}
+button:active{
+    background: #4B9200;
+}
+button:hover{
+    background: #E47209;
+}
+button:disabled{
+    background: #767474;
+}
+
+.header{
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    backdrop-filter: blur(2px);
+}
+
+/* logo */
+
+h1 {
+    box-sizing: border-box;
+    width: 72.49px;
+    height: 44.91px;
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1.18841px solid #FFFFFF;
+}
+
+.border-logo {
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 220px;
+top: 14px;
+}
+
+.logo {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+
+.bamboo {
+    box-sizing: border-box;
+    position: absolute;
+    width: 7.03px;
+    height: 20.98px;
+    left: 13.23px;
+    top: 24.64px;
+}
+
+/* header nav */
+
+.header a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+header .about {
+    position: absolute;
+    width: 43px;
+    height: 22px;
+    left: 365px;
+    top: 29px;
+}
+
+.header a:link{
+    text-decoration: none;
+}
+
+.header a:hover{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+}
+
+header .map {
+    position: absolute;
+    width: 32px;
+    height: 22px;
+    left: 466px;
+    top: 29px;
+}
+
+header .donate {
+    position: absolute;
+    width: 51px;
+    height: 22px;
+    left: 650px;
+    top: 29px;
+}
+
+header .contact {
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 759px;
+    top: 29px;
+}
+
+.design {
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 1275px;
+    top: 29px;
+}
+
+header .zoos {
+    position: absolute;
+    width: 36px;
+    height: 22px;
+    left: 556px;
+    top: 29px;
+}
+
+.panda-pic{
+    background-image: url(/assets/images/GiantPanda.jpg);
+    background-position: center;
+    position: absolute;
+height: 390px;
+left: 0px;
+right: 0px;
+top: 76px;
+
+}
+
+.help-zoo{
+    position: absolute;
+height: 1482px;
+left: 0px;
+right: 0px;
+top: 466px;
+
+/* orange_gradient */
+
+background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.help-zoo h2{
+    position: absolute;
+    width: 100%;
+height: 47px;
+left: 220px;
+right: 223px;
+top: 40px;
+
+/* h3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+/* identical to box height, or 47px */
+
+
+color: #FFFFFF;
+}
+
+.help-zoo article{
+    position: absolute;
+height: 94px;
+left: 220px;
+right: 220px;
+top: 97px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #FFFFFF;
+}
+
+.help-zoo h5{
+    
+position: absolute;
+width: 341px;
+height: 47px;
+left: calc(50% - 341px/2 - 409.5px);
+top: 231px;
+
+/* h3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 130%;
+/* identical to box height, or 47px */
+
+
+/* or3 */
+
+color: #FE9013;
+}
