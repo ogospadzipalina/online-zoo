@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
 }
 
@@ -182,8 +182,7 @@ top: 40px;
 
 /* h3 */
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 400;
 font-size: 36px;
 line-height: 130%;
@@ -202,8 +201,7 @@ top: 97px;
 
 /* body */
 
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 140%;
@@ -223,8 +221,6 @@ top: 231px;
 
 /* h3 */
 
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 36px;
 line-height: 130%;
@@ -234,4 +230,150 @@ line-height: 130%;
 /* or3 */
 
 color: #FE9013;
+}
+
+.donation-process{
+    position: absolute;
+ display: inline-block;
+height: 964px;
+left: 220px;
+right: 220px;
+top: 338px;
+
+background: rgba(255, 255, 255, 0.52);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 20px;
+}
+
+.donation-process h3{
+    position: absolute;
+width: 463px;
+height: 58px;
+left: 342px;
+top: 40px;
+
+/* h2 */
+
+font-weight: 400;
+font-size: 48px;
+line-height: 120%;
+/* identical to box height, or 58px */
+
+text-align: center;
+
+/* or3 */
+
+color: #FE9013;
+
+}
+
+.animals-bring-you-joy{
+    position: absolute;
+width: 1095px;
+height: 29px;
+left: 0px;
+top: 118px;
+
+/* subtitle */
+
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+text-align: center;
+color: #333B41;
+}
+
+.number{
+    position: absolute;
+width: 82px;
+height: 58px;
+left: 345px;
+top: 312px;
+
+font-weight: 500;
+font-size: 72px;
+line-height: 80%;
+/* identical to box height, or 58px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.number-description{
+    
+position: absolute;
+width: 159px;
+height: 22px;
+left: 307px;
+top: 381px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+text-align: center;
+
+color: #333B41;
+}
+
+.x-icon{
+    position: absolute;
+left: 39.45%;
+right: 59.12%;
+top: 34.45%;
+bottom: 63.92%;
+
+}
+
+.panda-icon{
+    position: absolute;
+width: 284px;
+height: 246px;
+left: 555px;
+top: 207px;
+}
+
+.progress-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 92px;
+    top: 540px;
+    width: 976px;
+    height: 27px;
+    background-color: #404950;
+    border-radius: 2px;;
+}
+
+.grey-rectangle{
+    position: absolute;
+width: 915px;
+height: 2px;
+left: 31px;
+top: 512px;
+
+background: #72828E;
+}
+
+.circle{
+    position: absolute;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content:space-between;
+background: #FFEE2E;
+margin: 0 60px;
 }
