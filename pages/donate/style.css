@@ -377,3 +377,314 @@ justify-content:space-between;
 background: #FFEE2E;
 margin: 0 60px;
 }
+
+footer{
+    position: absolute;
+    height: 443px;
+    top:  1868px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+background: #111115;
+}
+
+footer .border-logo{
+position: absolute;
+width: 82px;
+height: 52px;
+left: 220px;
+top: 41px;
+}
+
+.donate-for-volunteers{
+    position: absolute;
+width: 298px;
+height: 54px;
+left: 220px;
+top: 161px;
+position: absolute;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 5px;
+border-color: transparent;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+}
+
+.social-media p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+}
+
+.links a:link, .logo a:link, .donate-for-volunteers a:link{
+    text-decoration: none;
+}
+
+.social-ellipse{
+    position: absolute;
+width: 26px;
+height: 26px;
+border-radius: 50%;
+background: rgba(196, 196, 196, 0.5);
+}
+
+.facebook{
+    position: absolute;
+width: 111px;
+height: 26px;
+left: 220px;
+bottom: 158px;
+}
+.facebook p{
+    position: absolute;
+width: 73px;
+height: 21px;
+left: 38px;
+top: 5px;
+}
+.facebook img{
+    position: absolute;
+    width: 8px;
+height: 16px;
+left: 9px;
+top: 5px
+}
+
+.twitter{
+    position: absolute;
+width: 89px;
+height: 26px;
+left: 220px;
+bottom: 122px;
+}
+
+.twitter p{
+    position: absolute;
+width: 50px;
+height: 22px;
+left: 38px;
+top: 3px;
+}
+
+.twitter img{
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    left: 5px;
+    top: 6px;
+}
+
+
+.instagram{
+    position: absolute;
+width: 110px;
+height: 26px;
+left: 220px;
+bottom: 86px;
+
+}
+
+.instagram img{
+    position: absolute;
+width: 16px;
+height: 16px;
+left: 5px;
+top: 5px;
+
+}
+
+.instagram p{
+    position: absolute;
+width: 73px;
+height: 22px;
+left: 38px;
+top: 3px;
+}
+
+.youtube{
+    position: absolute;
+width: 101px;
+height: 26px;
+left: 220px;
+bottom: 50px;
+}
+
+.youtube p{
+    position: absolute;
+width: 63px;
+height: 22px;
+left: 38px;
+top: 4px;
+
+}
+
+.youtube img{
+    
+position: absolute;
+width: 18px;
+height: 12.99px;
+left: 4px;
+top: 6px;
+}
+
+footer h3{
+    position: absolute;
+width: 237px;
+height: 29px;
+right: 350px;
+top: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 120%;
+
+color: #FFFFFF;
+}
+
+.email-subscription{
+    box-sizing: border-box;
+
+
+border-color: #FE9013;
+border-radius: 2px;
+background-color: transparent;
+
+
+position: absolute;
+width: 228px;
+height: 42px;
+right: 359px;
+top: 83px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+
+color: #BDBDBD;
+}
+
+.email-subscription:active{
+    border-color: #4B9200;
+}
+
+.email-subscription:invalid{
+    border-color: rgba(211, 20, 20, 1);
+}
+
+.email-subscription::placeholder:invalid{
+    color: rgba(211, 20, 20, 1);
+}
+
+.subscribe{
+    position: absolute;
+width: 129px;
+height: 42px;
+right: 220px;
+top: 83px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+background: #F1F3F2;
+
+border: 1px solid #333B41;
+border-radius: 5px;
+
+color: #000000;
+
+}
+
+.designer{
+    position: absolute;
+width: 220px;
+height: 21px;
+right: 228px;
+bottom: 81px;
+
+font-weight: 100;
+font-size: 16px;
+line-height: 130%;
+
+color: #FFFFFF;
+
+}
+
+.rights{
+    position: absolute;
+width: 228px;
+height: 21px;
+right: 220px;
+bottom: 50px;
+
+font-weight: 100;
+font-size: 16px;
+line-height: 130%;
+
+color: #FFFFFF
+}
+
+footer a{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #FFFFFF;
+
+}
+
+footer .about{
+    position: absolute;
+width: 43px;
+height: 22px;
+left: calc(50% - 43px/2 - 159.5px);
+bottom: 50px;
+}
+
+footer .map{
+    position: absolute;
+width: 32px;
+height: 22px;
+left: calc(50% - 32px/2 - 64px);
+bottom: 50px;
+}
+
+footer .zoos{
+    position: absolute;
+width: 36px;
+height: 22px;
+left: calc(50% - 36px/2 + 28px);
+bottom: 50px;
+}
+
+footer .contact{
+    position: absolute;
+width: 77px;
+height: 22px;
+left: calc(50% - 77px/2 + 142.5px);
+bottom: 50px;
+}
+
+#bullets{
+    list-style: none !important;
+}
+
+footer a:hover{
+    color: #f9804b;
+}
+
+.social-media:active{
+    color: #4B9200;
+}
