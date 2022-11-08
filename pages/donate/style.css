@@ -150,7 +150,7 @@ header .zoos {
 }
 
 .panda-pic{
-    background-image: url(/assets/images/GiantPanda.jpg);
+    background-image: url(/online-zoo/assets/images/GiantPanda.jpg);
     background-position: center;
     position: absolute;
 height: 390px;
@@ -345,8 +345,9 @@ top: 207px;
 }
 
 .progress-bar{
+    position: absolute;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     left: 92px;
     top: 540px;
@@ -358,10 +359,11 @@ top: 207px;
 
 .grey-rectangle{
     position: absolute;
+    align-items: center;
 width: 915px;
 height: 2px;
-left: 31px;
-top: 512px;
+left: 123px;
+top: 552px;
 
 background: #72828E;
 }
@@ -377,6 +379,77 @@ justify-content:space-between;
 background: #FFEE2E;
 margin: 0 60px;
 }
+
+.amount{
+    
+position: absolute;
+width: 57px;
+height: 22px;
+left: 96px;
+top: 501px;
+
+/* body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #000000;
+}
+
+.another-amount{
+position: absolute;
+width: 268px;
+height: 54px;
+left: 354px;
+top: 625px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+
+color: #929699;
+border: 1px solid #929699;
+border-radius: 2px;
+box-sizing: border-box;
+background-color: transparent;
+}
+
+.another-amount::-webkit-outer-spin-button,
+.another-amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.monthly-once{
+    display: flex;
+    width: 218px;
+    height: 21px;
+    top: 744px;
+    left: 474px;
+}
+
+.monthly{
+    flex: 50%;
+}
+
+.once{
+    flex: 50%;
+}
+
+/*FOOTER*/
 
 footer{
     position: absolute;
