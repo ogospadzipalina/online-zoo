@@ -540,7 +540,6 @@ margin: 0 60px;
 }
 
 .amount{
-    
 position: absolute;
 width: 57px;
 height: 22px;
@@ -579,12 +578,14 @@ background-color: transparent;
 .another-amount::-webkit-outer-spin-button,
 .another-amount::-webkit-inner-spin-button {
   -webkit-appearance: none;
+  appearance: none;
   margin: 0;
 }
 
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+  appearance: none;
 }
 
 .monthly-once{
@@ -638,7 +639,6 @@ color: #FFFFFF;
 }
 
 .share-with-friends{
-    
 position: absolute;
 width: 301px;
 height: 22px;
